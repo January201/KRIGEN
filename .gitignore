@@ -20,3 +20,16 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+
+### KRIGEN Security Orchestrator ###
+# Runtime-generated database and config
+krigen_incidents.db
+orchestration.ini
+# Incident reports directory
+reports/
+# Orchestrator log file
+orchestration.log
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
